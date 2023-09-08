@@ -1,3 +1,5 @@
+#!/bin/bash
+#Run this user data to setup the Prom Server on Ubuntu 20.04
 sudo useradd --no-create-home prometheus
 sudo mkdir /etc/prometheus
 sudo mkdir /var/lib/prometheus
@@ -24,6 +26,6 @@ sudo chown -R prometheus:prometheus /var/lib/prometheus
 sudo systemctl daemon-reload
 sudo systemctl enable prometheus
 sudo systemctl start prometheus
-sudo systemctl status prometheus
+#sudo systemctl status prometheus
 
 
