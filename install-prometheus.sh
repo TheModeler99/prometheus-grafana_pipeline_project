@@ -1,6 +1,6 @@
 #!/bin/bash
-#Run this user data to setup the Prom Server on Ubuntu 20.04. Make sure you edit the prometheus.yml file
-# and add the private IP of the target Servers; before creating the Prom Server
+# Run this to setup the Prom Server on Ubuntu 20.04. Make sure you edit the prometheus.yml file
+# and add the private IP of the target Servers.
 
 sudo apt install git -y
 git clone https://github.com/TheModeler99/prometheus-grafana_pipeline_project.git
